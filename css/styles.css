@@ -1,0 +1,120 @@
+a{
+    color: lightblue;
+    text-decoration:none;
+}
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    background-image: url("/imgs/fondo_negro.jpg");
+    
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+.contenedor{
+    display: inline-block;
+}
+#titulo_indice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+#indices{
+    background-color: rgba(32, 92, 153, 0.2);
+    color: whitesmoke;
+    border:solid white;
+    width:440px; height:200px;
+    border: 1;
+}
+#noticia{
+    background-color: rgba(131, 27, 117, 0.2);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid white;
+    left:480px;
+    width:800px; height:200px;
+    position:absolute;
+}
+#astronomia{
+    position: absolute;
+    left: 922px;
+    top: 480px;
+}
+.div1{
+    width: 910px;
+    height: 190px;
+    box-sizing: border-box;
+    background-color: rgba(197, 224, 42, 0.2);
+    border: 1px solid skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div2{
+    width: 910px;
+    height: 530px;
+    box-sizing: border-box;
+    background-color: rgba(224, 42, 57, 0.2);
+    border: 1px solid skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div3{
+    width: 910px;
+    height: 598px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(34, 241, 196, 0.2);
+    border: 1px solid skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div4{
+    width: 910px;
+    height: 300px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 0, 221, 0.2);
+    border: 1px solid skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div5{
+    width: 910px;
+    height: 770px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(114, 233, 3, 0.2);
+    border: 1px solid skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#volver_arriba{
+    bottom: -12px;
+    right: 5px;
+    width: 96px;
+    border: 3px solid white;
+    position: fixed;
+}
+#div_tabla{
+    color: whitesmoke; 
+    border: 1px solid #ddd;
+    text-align: center;
+}
