@@ -13,7 +13,10 @@ p{
 ul{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+li{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 body{
     background-color: black;
     background-image: url("/imgs/fondo_negro.jpg");
@@ -24,8 +27,11 @@ header{
     color: white;
     text-align: center;
 }
-.contenedor{
-    display: inline-block;
+#mainBlock{
+    display: inline-flex;
+    width: 1290px;
+    height: 200px;
+    margin-bottom: 10px;
 }
 #titulo_indice{
     font-family: Arial, Helvetica, sans-serif;
@@ -33,26 +39,110 @@ header{
     text-align: center;
 }
 #indices{
+    display: inline-block;
     background-color: rgba(32, 92, 153, 0.2);
     color: whitesmoke;
     border:solid white;
-    width:440px; height:200px;
-    border: 1;
+    width: 350px;
 }
-#noticia{
-    background-color: rgba(131, 27, 117, 0.2);
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.contNoticias{
+    display: flex;
+    background-color: rgba(131, 27, 117, 0.4);
     border: solid white;
-    left:480px;
-    width:800px; height:200px;
-    position:absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+#ult_not{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    padding-left: 397px;
+ }
+#tituloNot1{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    bottom: 20px;
+    font-weight: bold;
+}
+#not1 img{
+    display: block;
+    position: relative;
+    width: 189px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 43px;
+    border: 1px solid white;
+}
+#not1{
+    background-color: rgba(54, 134, 29, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);;
+    width: 340px;
+    height: 163px;
+    margin: 6px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#tituloNot2{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    bottom: 20px;
+    font-weight: bold;
+}
+#not2 img{
+    display: block;
+    position: relative;
+    width: 230px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 43px;
+    border: 1px solid white;
+}
+#not2{
+    background-color: rgba(54, 134, 29, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);;
+    width: 450px;
+    height: 133px;
+    margin: 6px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#tituloNot3{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    bottom: 20px;
+    font-weight: bold;
+}
+#not3 img{
+    display: block;
+    position: relative;
+    width: 189px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 43px;
+    border: 1px solid white;
+}
+#not3{
+    background-color: rgba(54, 134, 29, 0.2);
+    border: 1px solid rgba(250, 247, 247, 0.6);;
+    width: 340px;
+    height: 163px;
+    margin: 6px;
+    margin-top: 20px;
+    overflow: hidden;
 }
 #astronomia{
     position: absolute;
-    left: 922px;
-    top: 480px;
+    left: 920px;
+    top: 478px;
 }
 .div1{
     width: 910px;
@@ -62,6 +152,7 @@ header{
     border: 1px solid skyblue;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 .div2{
     width: 910px;
@@ -71,16 +162,17 @@ header{
     border: 1px solid skyblue;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 .div3{
     width: 910px;
     height: 598px;
     box-sizing: border-box;
-    display: inline-block;
     background-color: rgba(34, 241, 196, 0.2);
     border: 1px solid skyblue;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 .div4{
     width: 910px;
@@ -91,20 +183,16 @@ header{
     border: 1px solid skyblue;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 .div5{
     width: 910px;
     height: 770px;
     box-sizing: border-box;
-    display: inline-block;
     background-color: rgba(114, 233, 3, 0.2);
     border: 1px solid skyblue;
     padding-left: 20px;
     padding-right: 20px;
-}
-li{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #volver_arriba{
     bottom: -12px;
@@ -112,9 +200,4 @@ li{
     width: 96px;
     border: 3px solid white;
     position: fixed;
-}
-#div_tabla{
-    color: whitesmoke; 
-    border: 1px solid #ddd;
-    text-align: center;
 }
