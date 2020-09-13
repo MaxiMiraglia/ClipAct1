@@ -3,7 +3,7 @@ header{
 }
 body{
     background-color: black;
-    background-image: url("/imgs/fondo_negro.jpg");
+    background-image: url("imgs/fondo_negro.jpg");
     color: white;
 }
 #agujero_negro{
